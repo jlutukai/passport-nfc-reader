@@ -61,9 +61,9 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: NfcPassportReaderWidget(
-          passportNumber: 'AK0690654',
-          birthDate: '1995-04-14',
-          expirationDate: '2030-01-26',
+          passportNumber: '*******',
+          birthDate: '****-**-**',
+          expirationDate: '****-**-**',
           loadingWidget: const Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
